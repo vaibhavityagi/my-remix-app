@@ -24,6 +24,9 @@ export default defineConfig({
   }), tsconfigPaths(), sentryVitePlugin({
     org: "vaibhavi-bh",
     project: "javascript-remix"
+  }), sentryVitePlugin({
+    org: "vaibhavi-bh",
+    project: "javascript-remix"
   })],
 
   build: {
